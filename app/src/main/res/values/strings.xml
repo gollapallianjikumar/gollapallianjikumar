@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ApiCall</string>
+    <string name="show_list_view">Show List View</string>
+    <string name="name">Name</string>
+</resources>

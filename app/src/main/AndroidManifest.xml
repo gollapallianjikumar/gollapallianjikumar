@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.leadwinner.apicall">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ApiCall">
+        <activity android:name=".Fragments.ApiFragmentMain">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ApiListVieww" >
+
+        </activity>
+        <activity android:name=".FragmentsImages.ImageListView">
+
+        </activity>
+        <activity android:name=".MultiThreading.ActivityThree" />
+        <activity android:name=".MultiThreading.ActivityTwo" />
+        <activity android:name=".MultiThreading.ActivityOne" />
+        <activity android:name=".MultiThreading.MultiThreadExample" />
+        <activity android:name=".ImageViewPicaso" />
+        <activity android:name=".ImageUploadExample" />
+        <activity android:name=".FragementUserData" />
+        <activity android:name=".Fragments.FargmentMainActivity" >
+
+        </activity>
+        <activity android:name=".DataBase.EditData" />
+        <activity android:name=".ListViewJson" >
+
+        </activity>
+        <activity android:name=".GetMethod" />
+        <activity android:name=".UserData" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

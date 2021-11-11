@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FragementUserData">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User Register"
+            style="@style/CustomStyle"
+            android:gravity="center"
+            android:layout_marginTop="25dp"/>
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/nameFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Name"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black">
+        </com.google.android.material.textfield.TextInputEditText>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/jobsFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:hint="Enter Job"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black">
+    </com.google.android.material.textfield.TextInputEditText>
+    <Button
+        android:id="@+id/userDataButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Submit"/>
+</LinearLayout>

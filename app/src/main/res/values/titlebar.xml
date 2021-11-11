@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomStyle">
+        <item name="android:capitalize">characters</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">12pt</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>
